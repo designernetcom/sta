@@ -394,7 +394,7 @@ label {
     color: var(--tg-white);
     text-align: center;
     cursor: pointer;
-    background: var(--tg-primary-color);
+    background: #b17f38;
     transition: 1s ease;
     border: none;
 }
@@ -3723,7 +3723,7 @@ label {
 	font-size: 14px;
 	font-weight: 500;
 	border-radius: 8px;
-	background: var(--tg-primary-color);
+	background: #b17f38;
 	color: var(--tg-white);
 	padding: 16px 40px;
 	transition: .3s ease-in-out;
@@ -3795,24 +3795,26 @@ label {
 .contact-info-item {
 	text-align: center;
 	margin-bottom: 40px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 30px;
 }
 .contact-info-item .sub-title {
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 20px;
 	display: block;
-	color: var(--tg-primary-color);
+	color: #a67126;
 	margin-bottom: 5px;
 }
 .contact-info-item .title {
-	font-size: 22px;
-	text-transform: uppercase;
+	font-size: 20px;
+	text-transform: none;
 	margin-bottom: 15px;
 	line-height: 1.45;
 }
 .contact-info-item ul li a {
-	color: var(--tg-paragraph-color);
+	color: #262622;
 }
 .contact-info-item ul li a:hover {
 	color: var(--tg-primary-color);
@@ -3853,12 +3855,12 @@ label {
 	color: var(--tg-secondary-color);
 }
 .contact-form-wrap .form-grp textarea {
-	min-height: 240px;
+	min-height: 100px;
 	max-height: 240px;
 }
 .contact-form-wrap .form-submit {
 	text-align: center;
-	margin-top: 55px;
+	margin-top: 25px;
 }
 
 /*=============================
